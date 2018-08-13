@@ -35,7 +35,7 @@ def initial_round
   sum
 end
 
-def hit? (number)
+def hit? (sum)
   # code hit? here
   prompt_user
   input = get_user_input
@@ -47,6 +47,7 @@ def hit? (number)
   
   else 
   invalid_command
+  
 end 
 end 
 
