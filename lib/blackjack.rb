@@ -41,17 +41,17 @@ def hit? (sum)
   input = get_user_input
   
   if input == 's'
-   
-    
+  
   elsif input == 'h'
    sum += deal_card
    
   else 
   invalid_command
   prompt_user
-end 
+  
+  end 
 sum
-end 
+end
 
 def invalid_command
   # code invalid_command here
