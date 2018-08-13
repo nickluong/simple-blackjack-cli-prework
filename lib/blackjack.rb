@@ -30,11 +30,7 @@ end
 
 def initial_round
   # code #initial_round here
-  sum = 0
-  2.times do 
-    deal_card
-    sum += deal_card
-  end 
+  sum = 
   display_card_total(sum)
 end
 
