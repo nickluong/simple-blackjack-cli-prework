@@ -68,8 +68,10 @@ def runner
   # code runner here
   welcome 
   sum = initial_round
-  sum = hit?(sum)
+  until sum > 21 
+  
   display_card_total(sum)
+end
 end_game
 end
     
